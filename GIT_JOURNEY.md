@@ -82,7 +82,47 @@ merge conflicts across multiple branches using proper Git workflows.
 
 ### Merge 2: main + conflict-simulator (6 files)
 
-[Document the second set of conflicts similarly]
+#### Conflict 1: config/app-config.yaml
+- **Issue**: Added experimental flags in conflict-simulator branch missing in main.
+- **Resolution**: Merged both, keeping experimental flags behind a feature toggle.
+- **Strategy**: Used `enableExperimental: false` by default.
+- **Difficulty**: Medium
+- **Time**: 10 minutes
+
+#### Conflict 2: config/feature-flags.json
+- **Issue**: Conflicting lists of enabled features.
+- **Resolution**: Combined both sets of flags into a unified list.
+- **Strategy**: Ensured no duplicate keys and consistent formatting.
+- **Difficulty**: Easy
+- **Time**: 8 minutes
+
+#### Conflict 3: src/simulator.js
+- **Issue**: Different implementations of simulation logic.
+- **Resolution**: Retained core logic from main and added conflict-simulator’s test hooks.
+- **Strategy**: Used conditional flags to toggle experimental mode.
+- **Difficulty**: Hard
+- **Time**: 20 minutes
+
+#### Conflict 4: src/utils/logger.js
+- **Issue**: Logging format inconsistency.
+- **Resolution**: Standardized to JSON log structure.
+- **Strategy**: Used environment variable `LOG_FORMAT=json` as default.
+- **Difficulty**: Medium
+- **Time**: 10 minutes
+
+#### Conflict 5: README.md
+- **Issue**: Duplicate documentation sections about simulator features.
+- **Resolution**: Combined documentation, clearly marking experimental sections.
+- **Strategy**: Created separate “Experimental Features” section.
+- **Difficulty**: Easy
+- **Time**: 10 minutes
+
+#### Conflict 6: tests/simulator.test.js
+- **Issue**: Conflicting test suites and mock setups.
+- **Resolution**: Integrated both sets of tests under different describe blocks.
+- **Strategy**: Maintained backward compatibility for both versions.
+- **Difficulty**: Medium
+- **Time**: 15 minutes
 
 ## Most Challenging Parts
 
@@ -126,5 +166,3 @@ The hands-on practice with all Git commands (especially rebase and
 cherry-pick) was invaluable. I understand the difference between merge 
 and rebase, and when to use each. Most importantly, I learned that 
 git reflog is a lifesaver!
-"Minor doc update" 
-"Final summary" 
