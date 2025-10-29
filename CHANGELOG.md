@@ -1,14 +1,52 @@
-- f37e3d8: docs: Update README (P D S Aravind Kumar, 19 minutes ago)
-- a8216ee: feat: Add new feature (P D S Aravind Kumar, 33 minutes ago)
-- 96100f5: docs: Add FAQ section (P D S Aravind Kumar, 35 minutes ago)
-- 762ebdd: merge: Resolve conflicts between main and conflict-simulator with experimental features behind flags (P D S Aravind Kumar, 13 hours ago)
-- 4f4a672: merge: Resolve all conflicts between main and dev branches (P D S Aravind Kumar, 21 hours ago)
-- d3dd9b2: updating conflict-simulator (Hanu Gupta, 6 days ago)
-- 02011a5: updating dev (Hanu Gupta, 6 days ago)
-- 0312c6f: updating main (Hanu Gupta, 6 days ago)
-- fadfd24: Revise README for DevOps Simulator project (Hanu Gupta, 6 days ago)
-- ae630eb: Initial commit (Hanu Gupta, 6 days ago)- 98d956a: docs: Validation complete (P D S Aravind Kumar, 2 minutes ago)
-- ff9b552: docs: Final project summary (P D S Aravind Kumar, 2 minutes ago)
-- d9e14f1: docs: Minor update to Git journey notes (P D S Aravind Kumar, 4 minutes ago)
-- 8b1a9f0: docs: Add checkpoint 3 (final merge graph) (P D S Aravind Kumar, 7 minutes ago)
-- 2d84ef0: docs: Add final project artifacts (P D S Aravind Kumar, 22 minutes ago)
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+---
+
+## [3.0.0] - 2025-10-29
+### Summary
+Final merge and documentation updates for Git Mastery Challenge submission.
+
+### Added
+- `docs: Add final project artifacts`
+- `docs: Add checkpoint 3 (final merge graph)`
+- `docs: Minor update to Git journey notes`
+- `docs: Final project summary`
+- `docs: Validation complete`
+
+### Changed
+- Updated `README.md` with final architecture and environment setup.
+- Added new FAQ section for clarity.
+- Integrated AI-powered deployment optimization (experimental features behind toggle).
+- Improved `deploy.sh` for dynamic environment detection.
+- Combined production and development configurations in `app-config.yaml` and `database-config.json`.
+
+### Merges
+- **762ebdd**: Resolved conflicts between `main` and `conflict-simulator` (experimental flags behind feature toggles).
+- **4f4a672**: Resolved all conflicts between `main` and `dev` branches.
+
+### Previous Updates
+- **f37e3d8**: `docs: Update README`
+- **a8216ee**: `feat: Add new feature`
+- **96100f5**: `docs: Add FAQ section`
+
+### Legacy Commits
+- **d3dd9b2**: updating conflict-simulator (Hanu Gupta)
+- **02011a5**: updating dev (Hanu Gupta)
+- **0312c6f**: updating main (Hanu Gupta)
+- **fadfd24**: Revise README for DevOps Simulator project (Hanu Gupta)
+- **ae630eb**: Initial commit (Hanu Gupta)
+
+---
+
+ **Validation Summary**
+- All conflicts resolved successfully.
+- Documentation and project artifacts verified.
+- `git status` shows clean working tree.
+- Repository ready for final submission.
+
+---
+
+ **Finalized by:** *P. D. S. Aravind Kumar (23MH1A1252)*  
+ **Date Completed:** *29-10-2025*
