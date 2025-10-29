@@ -127,3 +127,4 @@ cherry-pick) was invaluable. I understand the difference between merge
 and rebase, and when to use each. Most importantly, I learned that 
 git reflog is a lifesaver!
 "Minor doc update" 
+"Final summary" 
