@@ -1,6 +1,5 @@
 # DevOps Simulator
 
-<<<<<<< HEAD
 A comprehensive CI/CD configuration management tool for enterprise deployments.
 
 ## Project Status
@@ -12,7 +11,25 @@ A comprehensive CI/CD configuration management tool for enterprise deployments.
 ## Features
 
 ### Core Features
-=======
+- Automated deployment scripts
+- Real-time monitoring
+- Configuration management
+- Backup and recovery system
+
+### Production Features
+- SSL/TLS encryption
+- Auto-scaling
+- Load balancer integration
+- Scheduled backups
+
+### Development Features (Beta)
+-  Docker Compose integration
+-  Hot reload enabled
+-  Debug mode active
+-  Enhanced logging
+-  Mock external APIs
+
+
 **EXPERIMENTAL BUILD** - Advanced CI/CD configuration management with AI integration.
 
 ## Project Status
@@ -28,27 +45,6 @@ A comprehensive CI/CD configuration management tool for enterprise deployments.
 - 🌊 Event-driven architecture
 - 🎯 Chaos engineering tools
 
-## Legacy Features
->>>>>>> conflict-simulator
-- Automated deployment scripts
-- Real-time monitoring
-- Configuration management
-- Backup and recovery system
-
-<<<<<<< HEAD
-### Production Features
-- SSL/TLS encryption
-- Auto-scaling
-- Load balancer integration
-- Scheduled backups
-
-### Development Features (Beta)
--  Docker Compose integration
--  Hot reload enabled
--  Debug mode active
--  Enhanced logging
--  Mock external APIs
-
 ## Quick Start
 
 ### Production Mode
@@ -63,7 +59,6 @@ npm install
 npm run dev
 ```
 
-=======
 ## Quick Start - Advanced Mode
 ```bash
 # Install AI dependencies
@@ -92,12 +87,10 @@ Our system now uses machine learning to:
 ## Documentation
 See `/docs` folder and `/docs/ai-integration.md`
 
-## Warning
-⚠️ This is an experimental branch. Use at your own risk!
 
 ## License
 MIT License
->>>>>>> conflict-simulator
+
 "## FAQ" 
 "update" 
 "All validations passed" 
